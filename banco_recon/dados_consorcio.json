@@ -31,11 +31,31 @@
       "maxLanceEmbutido": 0.25
     },
     {
+      "id": "t_auto5121_107_L_natal",
+      "name": "PLANO NATAL: Automóvel Grupo 5121 (75%)",
+      "category": "AUTO",
+      "plan": "LIGHT",
+      "taxaAdmin": 0.20,
+      "fundoReserva": 0.03,
+      "seguroPct": 0.00084,
+      "maxLanceEmbutido": 0.25
+    },
+    {
       "id": "t_auto5121_107_L",
       "name": "Automóvel Grupo 5121 (75%)",
       "category": "AUTO",
       "plan": "LIGHT",
       "taxaAdmin": 0.20,
+      "fundoReserva": 0.03,
+      "seguroPct": 0.00084,
+      "maxLanceEmbutido": 0.25
+    },
+    {
+      "id": "t_auto5121_107_normal_natal",
+      "name": "TABELA NATAL: Automóvel Grupo 5121 Normal",
+      "category": "AUTO",
+      "plan": "NORMAL",
+      "taxaAdmin": 0.15,
       "fundoReserva": 0.03,
       "seguroPct": 0.00084,
       "maxLanceEmbutido": 0.25
@@ -2097,6 +2117,58 @@
         }
       ]
     }
-  ]
+  ],
+        "t_auto5121_107_normal_natal": [
+            {
+                "credito": 110000,
+                "prazos": [
+                    { "prazo": 107, "parcela_CSV": 1322.12, "parcela_SSV": 1213.08 }
+                ]
+            },
+            {
+                "credito": 100000,
+                "prazos": [
+                    { "prazo": 107, "parcela_CSV": 1201.92, "parcela_SSV": 1102.80 }
+                ]
+            },
+            {
+                "credito": 90000,
+                "prazos": [
+                    { "prazo": 107, "parcela_CSV": 1081.73, "parcela_SSV": 992.52 }
+                ]
+            },
+            {
+                "credito": 80000,
+                "prazos": [
+                    { "prazo": 107, "parcela_CSV": 961.54, "parcela_SSV": 882.24 }
+                ]
+            }
+        ],
+        "t_auto5121_107_L_natal": [
+            {
+                "credito": 110000,
+                "prazos": [
+                    { "prazo": 107, "parcela_CSV": 1076.31, "parcela_SSV": 966.36 }
+                ]
+            },
+            {
+                "credito": 100000,
+                "prazos": [
+                    { "prazo": 107, "parcela_CSV": 978.46, "parcela_SSV": 878.50 }
+                ]
+            },
+            {
+                "credito": 90000,
+                "prazos": [
+                    { "prazo": 107, "parcela_CSV": 880.62, "parcela_SSV": 790.65 }
+                ]
+            },
+            {
+                "credito": 80000,
+                "prazos": [
+                    { "prazo": 107, "parcela_CSV": 782.77, "parcela_SSV": 702.80 }
+                ]
+            }
+        ]
  }
 }
