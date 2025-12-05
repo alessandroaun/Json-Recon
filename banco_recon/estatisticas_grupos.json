@@ -207,6 +207,42 @@
         "Menor Lance Livre": 0.0
     },
     {
+        "Grupo": 2004,
+        "Assembleia": "26/11/2025",
+        "Qtd Contemplados": 8,
+        "Qtd Lance Fixo (30/45)": 3,
+        "Qtd Lance Livre": 3,
+        "Media Lance Livre": 61.3333,
+        "Menor Lance Livre": 60.0
+    },
+    {
+        "Grupo": 2005,
+        "Assembleia": "26/11/2025",
+        "Qtd Contemplados": 8,
+        "Qtd Lance Fixo (30/45)": 3,
+        "Qtd Lance Livre": 2,
+        "Media Lance Livre": 60.0756,
+        "Menor Lance Livre": 60.0756
+    },
+    {
+        "Grupo": 5112,
+        "Assembleia": "26/11/2025",
+        "Qtd Contemplados": 10,
+        "Qtd Lance Fixo (30/45)": 4,
+        "Qtd Lance Livre": 2,
+        "Media Lance Livre": 47.5211,
+        "Menor Lance Livre": 31.5422
+    },
+    {
+        "Grupo": 5117,
+        "Assembleia": "26/11/2025",
+        "Qtd Contemplados": 7,
+        "Qtd Lance Fixo (30/45)": 2,
+        "Qtd Lance Livre": 3,
+        "Media Lance Livre": 74.6154,
+        "Menor Lance Livre": 73.8462
+    },
+    {
         "Grupo": 5102,
         "Assembleia": "15/11/2025",
         "Qtd Contemplados": 932,
