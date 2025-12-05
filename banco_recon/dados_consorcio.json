@@ -35,7 +35,7 @@
       "name": "PLANO NATAL: Automóvel Grupo 5121 (75%)",
       "category": "AUTO",
       "plan": "LIGHT",
-      "taxaAdmin": 0.20,
+      "taxaAdmin": 0.16,
       "fundoReserva": 0.03,
       "seguroPct": 0.00084,
       "maxLanceEmbutido": 0.25
