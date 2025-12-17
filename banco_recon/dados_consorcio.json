@@ -31,8 +31,8 @@
       "maxLanceEmbutido": 0.25
     },
     {
-      "id": "t_auto5121_107_L_natal",
-      "name": "PLANO NATAL: Automóvel Grupo 5121 (75%)",
+      "id": "t_auto5121_L_natal",
+      "name": "TABELA NATAL: Automóvel Grupo 5121 (75%)",
       "category": "AUTO",
       "plan": "LIGHT",
       "taxaAdmin": 0.16,
@@ -41,7 +41,7 @@
       "maxLanceEmbutido": 0.25
     },
     {
-      "id": "t_auto5121_107_L",
+      "id": "t_auto5121_L",
       "name": "Automóvel Grupo 5121 (75%)",
       "category": "AUTO",
       "plan": "LIGHT",
@@ -51,7 +51,7 @@
       "maxLanceEmbutido": 0.25
     },
     {
-      "id": "t_auto5121_107_normal_natal",
+      "id": "t_auto5121_normal_natal",
       "name": "TABELA NATAL: Automóvel Grupo 5121 Normal",
       "category": "AUTO",
       "plan": "NORMAL",
@@ -61,7 +61,7 @@
       "maxLanceEmbutido": 0.25
     },
     {
-      "id": "t_auto5121_107_normal",
+      "id": "t_auto5121_normal",
       "name": "Automóvel Grupo 5121 Normal",
       "category": "AUTO",
       "plan": "NORMAL",
@@ -81,7 +81,17 @@
       "maxLanceEmbutido": 0.25
     },
     {
-      "id": "t_imovel2011_202_L",
+      "id": "t_imovel2011_normal",
+      "name": "Imóvel Grupo 2011 Normal",
+      "category": "IMOVEL",
+      "plan": "NORMAL",
+      "taxaAdmin": 0.25,
+      "fundoReserva": 0.03,
+      "seguroPct": 0.00059,
+      "maxLanceEmbutido": 0.25
+    },
+    {
+      "id": "t_imovel2011_L",
       "name": "Imóvel Grupo 2011 (75%)",
       "category": "IMOVEL",
       "plan": "LIGHT",
@@ -91,7 +101,7 @@
       "maxLanceEmbutido": 0.25
     },
     {
-      "id": "t_imovel2011_202_SL",
+      "id": "t_imovel2011_SL",
       "name": "Imóvel Grupo 2011 (50%)",
       "category": "IMOVEL",
       "plan": "SUPERLIGHT",
@@ -99,13 +109,33 @@
       "fundoReserva": 0.03,
       "seguroPct": 0.00059,
       "maxLanceEmbutido": 0.25
-    },
+    },    
     {
-      "id": "t_imovel2011_202_normal",
-      "name": "Imóvel Grupo 2011 Normal",
+      "id": "tabela_natal_imovel2011_normal",
+      "name": "TABELA NATAL: Imóvel Grupo 2011 Normal",
       "category": "IMOVEL",
       "plan": "NORMAL",
-      "taxaAdmin": 0.25,
+      "taxaAdmin": 0.20,
+      "fundoReserva": 0.03,
+      "seguroPct": 0.00059,
+      "maxLanceEmbutido": 0.25
+    },
+    {
+      "id": "tabela_natal_imovel2011_201_L",
+      "name": "TABELA NATAL: Imóvel Grupo 2011 (75%)",
+      "category": "IMOVEL",
+      "plan": "LIGHT",
+      "taxaAdmin": 0.20,
+      "fundoReserva": 0.03,
+      "seguroPct": 0.00059,
+      "maxLanceEmbutido": 0.25
+    },
+    {
+      "id": "tabela_natal_imovel2011_201_SL",
+      "name": "TABELA NATAL: Imóvel Grupo 2011 (50%)",
+      "category": "IMOVEL",
+      "plan": "SUPERLIGHT",
+      "taxaAdmin": 0.20,
       "fundoReserva": 0.03,
       "seguroPct": 0.00059,
       "maxLanceEmbutido": 0.25
@@ -1038,58 +1068,90 @@
                 ]
             }
         ],
-        "t_auto5121_107_normal": [
-            {
-                "credito": 110000,
-                "prazos": [
-                    { "prazo": 107, "parcela_CSV": 1366.94, "parcela_SSV": 1254.21 }
-                ]
-            },
-            {
-                "credito": 100000,
-                "prazos": [
-                    { "prazo": 107, "parcela_CSV": 1242.67, "parcela_SSV": 1140.19 }
-                ]
-            },
-            {
-                "credito": 90000,
-                "prazos": [
-                    { "prazo": 107, "parcela_CSV": 1118.4, "parcela_SSV": 1026.17 }
-                ]
-            },
-            {
-                "credito": 80000,
-                "prazos": [
-                    { "prazo": 107, "parcela_CSV": 994.14, "parcela_SSV": 912.15 }
-                ]
-            }
-        ],
-        "t_auto5121_107_L": [
-            {
-                "credito": 110000,
-                "prazos": [
-                    { "prazo": 107, "parcela_CSV": 1121.13, "parcela_SSV": 1007.48 }
-                ]
-            },
-            {
-                "credito": 100000,
-                "prazos": [
-                    { "prazo": 107, "parcela_CSV": 1019.21, "parcela_SSV": 915.89 }
-                ]
-            },
-            {
-                "credito": 90000,
-                "prazos": [
-                    { "prazo": 107, "parcela_CSV": 917.29, "parcela_SSV": 824.3 }
-                ]
-            },
-            {
-                "credito": 80000,
-                "prazos": [
-                    { "prazo": 107, "parcela_CSV": 815.37, "parcela_SSV": 732.71 }
-                ]
-            }
-        ],
+        "t_auto5121_normal": [
+        {
+            "credito": 80000,
+            "prazos": [
+                {
+                    "prazo": 106,
+                    "parcela_CSV": 1002.74,
+                    "parcela_SSV": 920.75
+                }
+            ]
+        },
+        {
+            "credito": 90000,
+            "prazos": [
+                {
+                    "prazo": 106,
+                    "parcela_CSV": 1128.08,
+                    "parcela_SSV": 1035.85
+                }
+            ]
+        },
+        {
+            "credito": 100000,
+            "prazos": [
+                {
+                    "prazo": 106,
+                    "parcela_CSV": 1253.42,
+                    "parcela_SSV": 1150.94
+                }
+            ]
+        },
+        {
+            "credito": 110000,
+            "prazos": [
+                {
+                    "prazo": 106,
+                    "parcela_CSV": 1378.77,
+                    "parcela_SSV": 1266.04
+                }
+            ]
+        }
+    ],
+        "t_auto5121_L": [
+        {
+            "credito": 80000,
+            "prazos": [
+                {
+                    "prazo": 106,
+                    "parcela_CSV": 822.28,
+                    "parcela_SSV": 739.62
+                }
+            ]
+        },
+        {
+            "credito": 90000,
+            "prazos": [
+                {
+                    "prazo": 106,
+                    "parcela_CSV": 925.06,
+                    "parcela_SSV": 832.04
+                }
+            ]
+        },
+        {
+            "credito": 100000,
+            "prazos": [
+                {
+                    "prazo": 106,
+                    "parcela_CSV": 1027.85,
+                    "parcela_SSV": 924.53
+                }
+            ]
+        },
+        {
+            "credito": 110000,
+            "prazos": [
+                {
+                    "prazo": 106,
+                    "parcela_CSV": 1130.63,
+                    "parcela_SSV": 1016.98
+                }
+            ]
+        }
+    ],
         "t_imovel_normal": [
         {
             "credito": 250000,
@@ -1572,342 +1634,454 @@
             ]
         }
     ],
-    "t_imovel2011_202_L": [
-    {
-      "credito": 300000.0,
-      "prazos": [
+    "t_imovel201_L": [
         {
-          "prazo": 202,
-          "parcela_CSV": 1756.26,
-          "parcela_SSV": 1520.7
-        }
-      ]
-    },
-    {
-      "credito": 290000.0,
-      "prazos": [
+            "credito": 200000,
+            "prazos": [
+                {
+                    "prazo": 201,
+                    "parcela_CSV": 1424.67,
+                    "parcela_SSV": 1273.63
+                }
+            ]
+        },
         {
-          "prazo": 202,
-          "parcela_CSV": 1697.72,
-          "parcela_SSV": 1478.71
-        }
-      ]
-    },
-    {
-      "credito": 280000.0,
-      "prazos": [
+            "credito": 210000,
+            "prazos": [
+                {
+                    "prazo": 201,
+                    "parcela_CSV": 1495.91,
+                    "parcela_SSV": 1337.31
+                }
+            ]
+        },
         {
-          "prazo": 202,
-          "parcela_CSV": 1639.18,
-          "parcela_SSV": 1427.72
-        }
-      ]
-    },
-    {
-      "credito": 270000.0,
-      "prazos": [
+            "credito": 220000,
+            "prazos": [
+                {
+                    "prazo": 201,
+                    "parcela_CSV": 1567.14,
+                    "parcela_SSV": 1401.0
+                }
+            ]
+        },
         {
-          "prazo": 202,
-          "parcela_CSV": 1580.64,
-          "parcela_SSV": 1376.73
-        }
-      ]
-    },
-    {
-      "credito": 260000.0,
-      "prazos": [
+            "credito": 230000,
+            "prazos": [
+                {
+                    "prazo": 201,
+                    "parcela_CSV": 1638.37,
+                    "parcela_SSV": 1464.68
+                }
+            ]
+        },
         {
-          "prazo": 202,
-          "parcela_CSV": 1522.09,
-          "parcela_SSV": 1325.74
-        }
-      ]
-    },
-    {
-      "credito": 250000.0,
-      "prazos": [
+            "credito": 240000,
+            "prazos": [
+                {
+                    "prazo": 201,
+                    "parcela_CSV": 1709.61,
+                    "parcela_SSV": 1528.36
+                }
+            ]
+        },
         {
-          "prazo": 202,
-          "parcela_CSV": 1463.55,
-          "parcela_SSV": 1274.75
-        }
-      ]
-    },
-    {
-      "credito": 240000.0,
-      "prazos": [
+            "credito": 250000,
+            "prazos": [
+                {
+                    "prazo": 201,
+                    "parcela_CSV": 1780.84,
+                    "parcela_SSV": 1592.04
+                }
+            ]
+        },
         {
-          "prazo": 202,
-          "parcela_CSV": 1405.01,
-          "parcela_SSV": 1223.76
-        }
-      ]
-    },
-    {
-      "credito": 230000.0,
-      "prazos": [
+            "credito": 260000,
+            "prazos": [
+                {
+                    "prazo": 201,
+                    "parcela_CSV": 1852.07,
+                    "parcela_SSV": 1655.72
+                }
+            ]
+        },
         {
-          "prazo": 202,
-          "parcela_CSV": 1346.47,
-          "parcela_SSV": 1172.77
-        }
-      ]
-    },
-    {
-      "credito": 220000.0,
-      "prazos": [
+            "credito": 270000,
+            "prazos": [
+                {
+                    "prazo": 201,
+                    "parcela_CSV": 1923.31,
+                    "parcela_SSV": 1719.4
+                }
+            ]
+        },
         {
-          "prazo": 202,
-          "parcela_CSV": 1287.93,
-          "parcela_SSV": 1121.78
-        }
-      ]
-    },
-    {
-      "credito": 210000.0,
-      "prazos": [
+            "credito": 280000,
+            "prazos": [
+                {
+                    "prazo": 201,
+                    "parcela_CSV": 1994.54,
+                    "parcela_SSV": 1783.08
+                }
+            ]
+        },
         {
-          "prazo": 202,
-          "parcela_CSV": 1229.38,
-          "parcela_SSV": 1070.8
-        }
-      ]
-    },
-    {
-      "credito": 200000.0,
-      "prazos": [
+            "credito": 290000,
+            "prazos": [
+                {
+                    "prazo": 201,
+                    "parcela_CSV": 2065.77,
+                    "parcela_SSV": 1846.77
+                }
+            ]
+        },
         {
-          "prazo": 202,
-          "parcela_CSV": 1170.84,
-          "parcela_SSV": 1019.81
+            "credito": 300000,
+            "prazos": [
+                {
+                    "prazo": 201,
+                    "parcela_CSV": 2137.01,
+                    "parcela_SSV": 1910.45
+                }
+            ]
         }
-      ]
-    }
-   ],
-   "t_imovel2011_202_normal": [
-    {
-      "credito": 300000.0,
-      "prazos": [
+    ],
+   "t_imovel2011_normal": [
         {
-          "prazo": 202,
-          "parcela_CSV": 2127.55,
-          "parcela_SSV": 1900.99
-        }
-      ]
-    },
-    {
-      "credito": 290000.0,
-      "prazos": [
+            "credito": 200000,
+            "prazos": [
+                {
+                    "prazo": 201,
+                    "parcela_CSV": 1424.67,
+                    "parcela_SSV": 1273.63
+                }
+            ]
+        },
         {
-          "prazo": 202,
-          "parcela_CSV": 2056.63,
-          "parcela_SSV": 1837.62
-        }
-      ]
-    },
-    {
-      "credito": 280000.0,
-      "prazos": [
+            "credito": 210000,
+            "prazos": [
+                {
+                    "prazo": 201,
+                    "parcela_CSV": 1495.91,
+                    "parcela_SSV": 1337.31
+                }
+            ]
+        },
         {
-          "prazo": 202,
-          "parcela_CSV": 1985.71,
-          "parcela_SSV": 1774.26
-        }
-      ]
-    },
-    {
-      "credito": 270000.0,
-      "prazos": [
+            "credito": 220000,
+            "prazos": [
+                {
+                    "prazo": 201,
+                    "parcela_CSV": 1567.14,
+                    "parcela_SSV": 1401.0
+                }
+            ]
+        },
         {
-          "prazo": 202,
-          "parcela_CSV": 1914.8,
-          "parcela_SSV": 1710.89
-        }
-      ]
-    },
-    {
-      "credito": 260000.0,
-      "prazos": [
+            "credito": 230000,
+            "prazos": [
+                {
+                    "prazo": 201,
+                    "parcela_CSV": 1638.37,
+                    "parcela_SSV": 1464.68
+                }
+            ]
+        },
         {
-          "prazo": 202,
-          "parcela_CSV": 1843.88,
-          "parcela_SSV": 1647.52
-        }
-      ]
-    },
-    {
-      "credito": 250000.0,
-      "prazos": [
+            "credito": 240000,
+            "prazos": [
+                {
+                    "prazo": 201,
+                    "parcela_CSV": 1709.61,
+                    "parcela_SSV": 1528.36
+                }
+            ]
+        },
         {
-          "prazo": 202,
-          "parcela_CSV": 1772.96,
-          "parcela_SSV": 1584.16
-        }
-      ]
-    },
-    {
-      "credito": 240000.0,
-      "prazos": [
+            "credito": 250000,
+            "prazos": [
+                {
+                    "prazo": 201,
+                    "parcela_CSV": 1780.84,
+                    "parcela_SSV": 1592.04
+                }
+            ]
+        },
         {
-          "prazo": 202,
-          "parcela_CSV": 1702.04,
-          "parcela_SSV": 1520.79
-        }
-      ]
-    },
-    {
-      "credito": 230000.0,
-      "prazos": [
+            "credito": 260000,
+            "prazos": [
+                {
+                    "prazo": 201,
+                    "parcela_CSV": 1852.07,
+                    "parcela_SSV": 1655.72
+                }
+            ]
+        },
         {
-          "prazo": 202,
-          "parcela_CSV": 1631.12,
-          "parcela_SSV": 1457.43
-        }
-      ]
-    },
-    {
-      "credito": 220000.0,
-      "prazos": [
+            "credito": 270000,
+            "prazos": [
+                {
+                    "prazo": 201,
+                    "parcela_CSV": 1923.31,
+                    "parcela_SSV": 1719.4
+                }
+            ]
+        },
         {
-          "prazo": 202,
-          "parcela_CSV": 1560.2,
-          "parcela_SSV": 1394.06
-        }
-      ]
-    },
-    {
-      "credito": 210000.0,
-      "prazos": [
+            "credito": 280000,
+            "prazos": [
+                {
+                    "prazo": 201,
+                    "parcela_CSV": 1994.54,
+                    "parcela_SSV": 1783.08
+                }
+            ]
+        },
         {
-          "prazo": 202,
-          "parcela_CSV": 1489.29,
-          "parcela_SSV": 1330.69
-        }
-      ]
-    },
-    {
-      "credito": 200000.0,
-      "prazos": [
+            "credito": 290000,
+            "prazos": [
+                {
+                    "prazo": 201,
+                    "parcela_CSV": 2065.77,
+                    "parcela_SSV": 1846.77
+                }
+            ]
+        },
         {
-          "prazo": 202,
-          "parcela_CSV": 1418.37,
-          "parcela_SSV": 1267.33
+            "credito": 300000,
+            "prazos": [
+                {
+                    "prazo": 201,
+                    "parcela_CSV": 2137.01,
+                    "parcela_SSV": 1910.45
+                }
+            ]
         }
-      ]
-    }
-  ],
-  "t_imovel2011_202_SL": [
-    {
-      "credito": 300000.0,
-      "prazos": [
+    ],
+    "t_imovel2011_L": [
         {
-          "prazo": 202,
-          "parcela_CSV": 1177.06,
-          "parcela_SSV": 950.5
-        }
-      ]
-    },
-    {
-      "credito": 290000.0,
-      "prazos": [
+            "credito": 200000,
+            "prazos": [
+                {
+                    "prazo": 201,
+                    "parcela_CSV": 1106.26,
+                    "parcela_SSV": 955.22
+                }
+            ]
+        },
         {
-          "prazo": 202,
-          "parcela_CSV": 1137.82,
-          "parcela_SSV": 918.81
-        }
-      ]
-    },
-    {
-      "credito": 280000.0,
-      "prazos": [
+            "credito": 210000,
+            "prazos": [
+                {
+                    "prazo": 201,
+                    "parcela_CSV": 1161.58,
+                    "parcela_SSV": 1002.99
+                }
+            ]
+        },
         {
-          "prazo": 202,
-          "parcela_CSV": 1098.58,
-          "parcela_SSV": 887.13
-        }
-      ]
-    },
-    {
-      "credito": 270000.0,
-      "prazos": [
+            "credito": 220000,
+            "prazos": [
+                {
+                    "prazo": 201,
+                    "parcela_CSV": 1216.89,
+                    "parcela_SSV": 1050.75
+                }
+            ]
+        },
         {
-          "prazo": 202,
-          "parcela_CSV": 1059.35,
-          "parcela_SSV": 855.45
-        }
-      ]
-    },
-    {
-      "credito": 260000.0,
-      "prazos": [
+            "credito": 230000,
+            "prazos": [
+                {
+                    "prazo": 201,
+                    "parcela_CSV": 1272.2,
+                    "parcela_SSV": 1098.51
+                }
+            ]
+        },
         {
-          "prazo": 202,
-          "parcela_CSV": 1020.11,
-          "parcela_SSV": 823.76
-        }
-      ]
-    },
-    {
-      "credito": 250000.0,
-      "prazos": [
+            "credito": 240000,
+            "prazos": [
+                {
+                    "prazo": 201,
+                    "parcela_CSV": 1327.52,
+                    "parcela_SSV": 1146.27
+                }
+            ]
+        },
         {
-          "prazo": 202,
-          "parcela_CSV": 980.88,
-          "parcela_SSV": 792.08
-        }
-      ]
-    },
-    {
-      "credito": 240000.0,
-      "prazos": [
+            "credito": 250000,
+            "prazos": [
+                {
+                    "prazo": 201,
+                    "parcela_CSV": 1382.83,
+                    "parcela_SSV": 1194.03
+                }
+            ]
+        },
         {
-          "prazo": 202,
-          "parcela_CSV": 941.64,
-          "parcela_SSV": 760.4
-        }
-      ]
-    },
-    {
-      "credito": 230000.0,
-      "prazos": [
+            "credito": 260000,
+            "prazos": [
+                {
+                    "prazo": 201,
+                    "parcela_CSV": 1438.14,
+                    "parcela_SSV": 1241.79
+                }
+            ]
+        },
         {
-          "prazo": 202,
-          "parcela_CSV": 902.41,
-          "parcela_SSV": 728.71
-        }
-      ]
-    },
-    {
-      "credito": 220000.0,
-      "prazos": [
+            "credito": 270000,
+            "prazos": [
+                {
+                    "prazo": 201,
+                    "parcela_CSV": 1493.46,
+                    "parcela_SSV": 1289.55
+                }
+            ]
+        },
         {
-          "prazo": 202,
-          "parcela_CSV": 863.17,
-          "parcela_SSV": 697.03
-        }
-      ]
-    },
-    {
-      "credito": 210000.0,
-      "prazos": [
+            "credito": 280000,
+            "prazos": [
+                {
+                    "prazo": 201,
+                    "parcela_CSV": 1548.77,
+                    "parcela_SSV": 1337.31
+                }
+            ]
+        },
         {
-          "prazo": 202,
-          "parcela_CSV": 823.94,
-          "parcela_SSV": 665.35
-        }
-      ]
-    },
-    {
-      "credito": 200000.0,
-      "prazos": [
+            "credito": 290000,
+            "prazos": [
+                {
+                    "prazo": 201,
+                    "parcela_CSV": 1604.08,
+                    "parcela_SSV": 1385.07
+                }
+            ]
+        },
         {
-          "prazo": 202,
-          "parcela_CSV": 784.7,
-          "parcela_SSV": 633.66
+            "credito": 300000,
+            "prazos": [
+                {
+                    "prazo": 201,
+                    "parcela_CSV": 1659.4,
+                    "parcela_SSV": 1432.84
+                }
+            ]
         }
-      ]
-    }
-  ],
+    ],
+  "t_imovel2011_SL": [
+        {
+            "credito": 200000,
+            "prazos": [
+                {
+                    "prazo": 201,
+                    "parcela_CSV": 787.86,
+                    "parcela_SSV": 636.82
+                }
+            ]
+        },
+        {
+            "credito": 210000,
+            "prazos": [
+                {
+                    "prazo": 201,
+                    "parcela_CSV": 827.25,
+                    "parcela_SSV": 668.66
+                }
+            ]
+        },
+        {
+            "credito": 220000,
+            "prazos": [
+                {
+                    "prazo": 201,
+                    "parcela_CSV": 866.64,
+                    "parcela_SSV": 700.5
+                }
+            ]
+        },
+        {
+            "credito": 230000,
+            "prazos": [
+                {
+                    "prazo": 201,
+                    "parcela_CSV": 906.03,
+                    "parcela_SSV": 732.34
+                }
+            ]
+        },
+        {
+            "credito": 240000,
+            "prazos": [
+                {
+                    "prazo": 201,
+                    "parcela_CSV": 945.43,
+                    "parcela_SSV": 764.18
+                }
+            ]
+        },
+        {
+            "credito": 250000,
+            "prazos": [
+                {
+                    "prazo": 201,
+                    "parcela_CSV": 984.82,
+                    "parcela_SSV": 796.02
+                }
+            ]
+        },
+        {
+            "credito": 260000,
+            "prazos": [
+                {
+                    "prazo": 201,
+                    "parcela_CSV": 1024.21,
+                    "parcela_SSV": 827.86
+                }
+            ]
+        },
+        {
+            "credito": 270000,
+            "prazos": [
+                {
+                    "prazo": 201,
+                    "parcela_CSV": 1063.61,
+                    "parcela_SSV": 859.7
+                }
+            ]
+        },
+        {
+            "credito": 280000,
+            "prazos": [
+                {
+                    "prazo": 201,
+                    "parcela_CSV": 1103.0,
+                    "parcela_SSV": 891.54
+                }
+            ]
+        },
+        {
+            "credito": 290000,
+            "prazos": [
+                {
+                    "prazo": 201,
+                    "parcela_CSV": 1142.39,
+                    "parcela_SSV": 923.38
+                }
+            ]
+        },
+        {
+            "credito": 300000,
+            "prazos": [
+                {
+                    "prazo": 201,
+                    "parcela_CSV": 1181.78,
+                    "parcela_SSV": 955.22
+                }
+            ]
+        }
+    ],
   "t_moto_normal": [
     {
       "credito": 30000.0,
@@ -2118,57 +2292,410 @@
       ]
     }
   ],
-        "t_auto5121_107_normal_natal": [
+        "t_auto5121_normal_natal": [
             {
                 "credito": 110000,
                 "prazos": [
-                    { "prazo": 107, "parcela_CSV": 1322.12, "parcela_SSV": 1213.08 }
+                    { "prazo": 106, "parcela_CSV": 1322.12, "parcela_SSV": 1213.08 }
                 ]
             },
             {
                 "credito": 100000,
                 "prazos": [
-                    { "prazo": 107, "parcela_CSV": 1201.92, "parcela_SSV": 1102.80 }
+                    { "prazo": 106, "parcela_CSV": 1201.92, "parcela_SSV": 1102.80 }
                 ]
             },
             {
                 "credito": 90000,
                 "prazos": [
-                    { "prazo": 107, "parcela_CSV": 1081.73, "parcela_SSV": 992.52 }
+                    { "prazo": 106, "parcela_CSV": 1081.73, "parcela_SSV": 992.52 }
                 ]
             },
             {
                 "credito": 80000,
                 "prazos": [
-                    { "prazo": 107, "parcela_CSV": 961.54, "parcela_SSV": 882.24 }
+                    { "prazo": 106, "parcela_CSV": 961.54, "parcela_SSV": 882.24 }
                 ]
             }
         ],
-        "t_auto5121_107_L_natal": [
-            {
-                "credito": 110000,
-                "prazos": [
-                    { "prazo": 107, "parcela_CSV": 1076.31, "parcela_SSV": 966.36 }
-                ]
-            },
-            {
-                "credito": 100000,
-                "prazos": [
-                    { "prazo": 107, "parcela_CSV": 978.46, "parcela_SSV": 878.50 }
-                ]
-            },
-            {
-                "credito": 90000,
-                "prazos": [
-                    { "prazo": 107, "parcela_CSV": 880.62, "parcela_SSV": 790.65 }
-                ]
-            },
-            {
-                "credito": 80000,
-                "prazos": [
-                    { "prazo": 107, "parcela_CSV": 782.77, "parcela_SSV": 702.80 }
-                ]
-            }
-        ]
+        "t_auto5121_L_natal": [
+        {
+            "credito": 80000,
+            "prazos": [
+                {
+                    "prazo": 106,
+                    "parcela_CSV": 789.40,
+                    "parcela_SSV": 709.43
+                }
+            ]
+        },
+        {
+            "credito": 90000,
+            "prazos": [
+                {
+                    "prazo": 106,
+                    "parcela_CSV": 888.08,
+                    "parcela_SSV": 798.11
+                }
+            ]
+        },
+        {
+            "credito": 100000,
+            "prazos": [
+                {
+                    "prazo": 106,
+                    "parcela_CSV": 986.75,
+                    "parcela_SSV": 886.79
+                }
+            ]
+        },
+        {
+            "credito": 110000,
+            "prazos": [
+                {
+                    "prazo": 106,
+                    "parcela_CSV": 1003.41,
+                    "parcela_SSV": 1085.43
+                }
+            ]
+        }
+    ],
+        
+  "tabela_natal_imovel2011_normal": [
+        {
+            "credito": 200000,
+            "prazos": [
+                {
+                    "prazo": 201,
+                    "parcela_CSV": 1369.02,
+                    "parcela_SSV": 1223.88
+                }
+            ]
+        },
+        {
+            "credito": 210000,
+            "prazos": [
+                {
+                    "prazo": 201,
+                    "parcela_CSV": 1437.47,
+                    "parcela_SSV": 1285.07
+                }
+            ]
+        },
+        {
+            "credito": 220000,
+            "prazos": [
+                {
+                    "prazo": 201,
+                    "parcela_CSV": 1505.92,
+                    "parcela_SSV": 1346.27
+                }
+            ]
+        },
+        {
+            "credito": 230000,
+            "prazos": [
+                {
+                    "prazo": 201,
+                    "parcela_CSV": 1574.37,
+                    "parcela_SSV": 1407.46
+                }
+            ]
+        },
+        {
+            "credito": 240000,
+            "prazos": [
+                {
+                    "prazo": 201,
+                    "parcela_CSV": 1642.82,
+                    "parcela_SSV": 1468.66
+                }
+            ]
+        },
+        {
+            "credito": 250000,
+            "prazos": [
+                {
+                    "prazo": 201,
+                    "parcela_CSV": 1711.28,
+                    "parcela_SSV": 1529.85
+                }
+            ]
+        },
+        {
+            "credito": 260000,
+            "prazos": [
+                {
+                    "prazo": 201,
+                    "parcela_CSV": 1779.73,
+                    "parcela_SSV": 1591.04
+                }
+            ]
+        },
+        {
+            "credito": 270000,
+            "prazos": [
+                {
+                    "prazo": 201,
+                    "parcela_CSV": 1848.18,
+                    "parcela_SSV": 1652.24
+                }
+            ]
+        },
+        {
+            "credito": 280000,
+            "prazos": [
+                {
+                    "prazo": 201,
+                    "parcela_CSV": 1916.63,
+                    "parcela_SSV": 1713.43
+                }
+            ]
+        },
+        {
+            "credito": 290000,
+            "prazos": [
+                {
+                    "prazo": 201,
+                    "parcela_CSV": 1985.08,
+                    "parcela_SSV": 1774.63
+                }
+            ]
+        },
+        {
+            "credito": 300000,
+            "prazos": [
+                {
+                    "prazo": 201,
+                    "parcela_CSV": 2053.53,
+                    "parcela_SSV": 1835.82
+                }
+            ]
+        }
+    ],
+    "tabela_natal_imovel2011_201_L": [
+        {
+            "credito": 200000,
+            "prazos": [
+                {
+                    "prazo": 201,
+                    "parcela_CSV": 1063.05,
+                    "parcela_SSV": 917.91
+                }
+            ]
+        },
+        {
+            "credito": 210000,
+            "prazos": [
+                {
+                    "prazo": 201,
+                    "parcela_CSV": 1116.2,
+                    "parcela_SSV": 963.81
+                }
+            ]
+        },
+        {
+            "credito": 220000,
+            "prazos": [
+                {
+                    "prazo": 201,
+                    "parcela_CSV": 1169.36,
+                    "parcela_SSV": 1009.7
+                }
+            ]
+        },
+        {
+            "credito": 230000,
+            "prazos": [
+                {
+                    "prazo": 201,
+                    "parcela_CSV": 1222.51,
+                    "parcela_SSV": 1055.6
+                }
+            ]
+        },
+        {
+            "credito": 240000,
+            "prazos": [
+                {
+                    "prazo": 201,
+                    "parcela_CSV": 1275.66,
+                    "parcela_SSV": 1101.49
+                }
+            ]
+        },
+        {
+            "credito": 250000,
+            "prazos": [
+                {
+                    "prazo": 201,
+                    "parcela_CSV": 1328.81,
+                    "parcela_SSV": 1147.39
+                }
+            ]
+        },
+        {
+            "credito": 260000,
+            "prazos": [
+                {
+                    "prazo": 201,
+                    "parcela_CSV": 1381.97,
+                    "parcela_SSV": 1193.28
+                }
+            ]
+        },
+        {
+            "credito": 270000,
+            "prazos": [
+                {
+                    "prazo": 201,
+                    "parcela_CSV": 1435.12,
+                    "parcela_SSV": 1239.18
+                }
+            ]
+        },
+        {
+            "credito": 280000,
+            "prazos": [
+                {
+                    "prazo": 201,
+                    "parcela_CSV": 1488.27,
+                    "parcela_SSV": 1285.07
+                }
+            ]
+        },
+        {
+            "credito": 290000,
+            "prazos": [
+                {
+                    "prazo": 201,
+                    "parcela_CSV": 1541.42,
+                    "parcela_SSV": 1330.97
+                }
+            ]
+        },
+        {
+            "credito": 300000,
+            "prazos": [
+                {
+                    "prazo": 201,
+                    "parcela_CSV": 1594.58,
+                    "parcela_SSV": 1376.87
+                }
+            ]
+        }
+    ],
+    "tabela_natal_imovel2011_201_SL": [
+        {
+            "credito": 200000,
+            "prazos": [
+                {
+                    "prazo": 201,
+                    "parcela_CSV": 757.08,
+                    "parcela_SSV": 611.94
+                }
+            ]
+        },
+        {
+            "credito": 210000,
+            "prazos": [
+                {
+                    "prazo": 201,
+                    "parcela_CSV": 794.93,
+                    "parcela_SSV": 642.54
+                }
+            ]
+        },
+        {
+            "credito": 220000,
+            "prazos": [
+                {
+                    "prazo": 201,
+                    "parcela_CSV": 832.79,
+                    "parcela_SSV": 673.13
+                }
+            ]
+        },
+        {
+            "credito": 230000,
+            "prazos": [
+                {
+                    "prazo": 201,
+                    "parcela_CSV": 870.64,
+                    "parcela_SSV": 703.73
+                }
+            ]
+        },
+        {
+            "credito": 240000,
+            "prazos": [
+                {
+                    "prazo": 201,
+                    "parcela_CSV": 908.5,
+                    "parcela_SSV": 734.33
+                }
+            ]
+        },
+        {
+            "credito": 250000,
+            "prazos": [
+                {
+                    "prazo": 201,
+                    "parcela_CSV": 946.35,
+                    "parcela_SSV": 764.93
+                }
+            ]
+        },
+        {
+            "credito": 260000,
+            "prazos": [
+                {
+                    "prazo": 201,
+                    "parcela_CSV": 984.2,
+                    "parcela_SSV": 795.52
+                }
+            ]
+        },
+        {
+            "credito": 270000,
+            "prazos": [
+                {
+                    "prazo": 201,
+                    "parcela_CSV": 1022.06,
+                    "parcela_SSV": 826.12
+                }
+            ]
+        },
+        {
+            "credito": 280000,
+            "prazos": [
+                {
+                    "prazo": 201,
+                    "parcela_CSV": 1059.91,
+                    "parcela_SSV": 856.72
+                }
+            ]
+        },
+        {
+            "credito": 290000,
+            "prazos": [
+                {
+                    "prazo": 201,
+                    "parcela_CSV": 1097.77,
+                    "parcela_SSV": 887.31
+                }
+            ]
+        },
+        {
+            "credito": 300000,
+            "prazos": [
+                {
+                    "prazo": 201,
+                    "parcela_CSV": 1135.62,
+                    "parcela_SSV": 917.91
+                }
+            ]
+        }
+    ]
  }
 }
